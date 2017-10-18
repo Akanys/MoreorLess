@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <a>
+
+    <script type="text/javascript">
+    
+    var aleatoire = Math.floor(Math.random()*101);
+    var msg = 'Pick a number between 1 and 100';
+
+    do{
+        
+        var essai = prompt(msg); 
+
+        if (essai > aleatoire)
+        {
+            msg = "Less";
+        }
+        else if (essai < aleatoire)
+        {
+            msg = "More";
+        }
+        else if (essai == aleatoire)
+        {
+            msg = "GG WP !";
+        }
+        else 
+        {
+            msg = "No è.é <br/>";
+        }
+    } while (essai);
+
+    </script>
+    </a>
+    
+</body>
+</html>
